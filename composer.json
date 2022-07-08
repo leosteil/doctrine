@@ -1,0 +1,24 @@
+{
+    "name": "leosteil/doctrine",
+    "description": "doctrine study",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leonardo Steil",
+            "email": "lsteil@inf.ufsm.br"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.12",
+        "doctrine/annotations": "^1.13",
+        "symfony/yaml": "^5.4",
+        "symfony/cache": "^5.4",
+        "doctrine/dbal": "^3.3",
+        "doctrine/migrations": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\Doctrine\\": "src/"
+        }
+    }
+}
